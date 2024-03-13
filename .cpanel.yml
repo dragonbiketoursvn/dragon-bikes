@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/customar/dragonbiketours.com
+    - rsync -a -v --delete-after /home/customar/repositories/dragonbiketours.com/ $DEPLOYPATH
