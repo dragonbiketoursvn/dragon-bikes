@@ -1,0 +1,4 @@
+[23-Jan-2023 00:22:46 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/m7v6ruok8v7m/public_html/dragonbiketours.com/vendor/font-awesome/scss/_path_noversion.php on line 50
+[23-Jan-2023 00:22:46 UTC] PHP Notice:  Undefined variable: hopefully in /home/m7v6ruok8v7m/public_html/dragonbiketours.com/vendor/font-awesome/scss/_path_noversion.php on line 50
+[23-Jan-2023 00:22:52 UTC] PHP Deprecated:  Function create_function() is deprecated in /home/m7v6ruok8v7m/public_html/dragonbiketours.com/vendor/font-awesome/scss/_path_noversion.php on line 50
+[23-Jan-2023 00:22:52 UTC] PHP Notice:  Undefined variable: hopefully in /home/m7v6ruok8v7m/public_html/dragonbiketours.com/vendor/font-awesome/scss/_path_noversion.php on line 50
