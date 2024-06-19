@@ -519,7 +519,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button id="contactFormSubmitButton" type="submit" class="btn btn-xl">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -1181,6 +1181,14 @@
 
     <script
         src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAgLtHiP63GfTmyPAEXt63XM6Z9HE4yBgY"></script>
+
+        <script>
+            const contactForm = document.querySelector('#contactFormSubmitButton');
+            contactForm.addEventListener('click', (e) => {
+                gtag('event', 'contact_form_submit');
+            });
+
+        </script>
 
     <!-- Google Analytics -->
     <!-- <script>
