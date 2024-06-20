@@ -1185,11 +1185,7 @@
         <script>
             const contactForm = document.querySelector('#contactFormSubmitButton');
             contactForm.addEventListener('click', (e) => {
-                // gtag('event', 'contact_form_submit');
-                gtag('event', 'action', {
-                'event_category': 'engagement',
-                'event_label': 'willy_wonka'
-                });
+                gtag('event', 'contact_form_submit');
             });
 
         </script>
