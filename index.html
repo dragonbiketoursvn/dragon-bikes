@@ -6,10 +6,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WXV28CS0T9"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        
-        function gtag(){dataLayer.push(arguments);}
-        
-        gtag ('set', 'allow_ad_personalization_signals', false ) ;
+
+        function gtag() { dataLayer.push(arguments); }
+
+        gtag('set', 'allow_ad_personalization_signals', false);
 
         gtag('js', new Date());
 
@@ -59,6 +59,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
     <link href="styles.min.css?av1" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/assets/img/logo.svg">
 
     <!-- HTML5 Shims -->
     <!--[if lt IE 9]>
@@ -71,8 +72,8 @@
 <body id="page-top" class="index">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDVPKCSC"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDVPKCSC" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Navigation -->
@@ -524,7 +525,8 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button id="contactFormSubmitButton" type="submit" class="btn btn-xl">Send Message</button>
+                                <button id="contactFormSubmitButton" type="submit" class="btn btn-xl">Send
+                                    Message</button>
                             </div>
                         </div>
                     </form>
@@ -1187,13 +1189,13 @@
     <script
         src="https://maps.googleapis.com/maps/api/js?callback=myMap&key=AIzaSyAgLtHiP63GfTmyPAEXt63XM6Z9HE4yBgY"></script>
 
-        <script>
-            const contactForm = document.querySelector('#contactFormSubmitButton');
-            contactForm.addEventListener('click', (e) => {
-                gtag('event', 'contact_form_submit');
-            });
+    <script>
+        const contactForm = document.querySelector('#contactFormSubmitButton');
+        contactForm.addEventListener('click', (e) => {
+            gtag('event', 'contact_form_submit');
+        });
 
-        </script>
+    </script>
 
     <!-- Google Analytics -->
     <!-- <script>
