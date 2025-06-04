@@ -8,4 +8,6 @@
 // } else {
 //   require 'landing_page_b.html';
 // }
+
+// pointless comment 
 require 'landing_page_b.html';
