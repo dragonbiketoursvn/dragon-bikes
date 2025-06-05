@@ -2,4 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/customar/dragonbiketours.com
+    - export DEPLOYPATH2=/home/customar/dragonbiketours.com/mail
+
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/index.html $DEPLOYPATH
+    - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/mail/ $DEPLOYPATH2
