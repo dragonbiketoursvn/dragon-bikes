@@ -6,7 +6,8 @@ deployment:
     - export DEPLOYPATH3=/home/customar/dragonbiketours.com/mail
     - export DEPLOYPATH4=/home/customar/dragonbiketours.com/vendor
 
-    - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/index.html $DEPLOYPATH
+    # - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/index.html $DEPLOYPATH
+    - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/ $DEPLOYPATH
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/assets/ $DEPLOYPATH2
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/mail/ $DEPLOYPATH3
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/vendor/ $DEPLOYPATH4
