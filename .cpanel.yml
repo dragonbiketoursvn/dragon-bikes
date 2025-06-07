@@ -13,3 +13,4 @@ deployment:
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/mail/ $DEPLOYPATH3
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/vendor/ $DEPLOYPATH4
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/wonka/ $DEPLOYPATH5
+    - chmod 755 /home/customar/dragonbiketours.com
