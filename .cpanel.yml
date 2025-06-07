@@ -7,3 +7,6 @@ deployment:
     # - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/index.html $DEPLOYPATH
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/ $DEPLOYPATH
     - rsync -a -v --delete-after /home/customar/repositories/dragon-bikes/mail/ $DEPLOYPATH2
+
+    # manually setting permissions as they otherwise go to 700 for some reason
+    - chmod 755 /home/customar/dragonbiketours.com
